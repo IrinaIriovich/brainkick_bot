@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: brainkick_bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    pythonVersion: 3.10.13
